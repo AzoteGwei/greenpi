@@ -12,11 +12,11 @@
         
         ```yml
         on:
-        push:
-            branches:
-            - main
-            schedule:
-            - cron: "0 0 * * *"
+            push:
+                branches:
+                - main
+                schedule:
+                - cron: "0 0 * * *"
         ```
 
     * 配置提交信息
