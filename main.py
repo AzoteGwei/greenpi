@@ -7,9 +7,9 @@ import sys
 ENABLE      = False # PLEASE SET TO "True" TO TURN ON THE SCRIPT!
 START_DATE  = date(2023,1,1) # Date of your first commit, WARNING: IF this >= 20 years, it will take ~30s to calcuate pi.
 COMMIT_TIME = "12:00:00+00:00" # Time of your commits will make
-MESSAGE     = 'Hi👋,我是颠佬😋,这是我的看片神器😍.' # Commit message, you can change it to whatever you want.
+MESSAGE     = 'Hi👋,我是癫佬😋,这是我的看片神器😍.' # Commit message, you can change it to whatever you want.
 
-FAKE_COMMIT = True #Development mode, will not commit to git, and print the command to the console.
+FAKE_COMMIT = False #Development mode, will not commit to git, and print the command to the console.
 
 def get_days(to_date = None):
     if to_date is None:
