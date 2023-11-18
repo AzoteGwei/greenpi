@@ -1,4 +1,4 @@
-name: Green PI Autocommit
+name: Green PI Backward Commit
 run-name: Commit pi times for the passed days for ${{ github.actor }} .
 on: workflow_dispatch
 jobs:
